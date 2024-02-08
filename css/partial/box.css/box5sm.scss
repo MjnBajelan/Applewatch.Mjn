@@ -1,0 +1,56 @@
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.box5 {
+      width: 80%;
+      height: 550px;
+      margin: 10% auto;
+      background-color: #f5f5f7;
+      text-align: center;
+      padding-top: 5%;
+      /* > img:nth-of-type(2) {
+        position: relative;
+        bottom: 55.5%;
+        width: 23%;
+      }*/ }
+      div.wrapper > div.box5 > p:nth-of-type(1) {
+        margin: 5% auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 600; }
+      div.wrapper > div.box5 > p:nth-of-type(2) {
+        margin: 2% auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-size: 30px;
+        font-weight: 600;
+        width: 70%;
+        height: 95px; }
+      div.wrapper > div.box5 > a > div.button {
+        width: 30%;
+        height: 40px;
+        background: #3ab43d;
+        background: -moz-linear-gradient(90deg, #3ab43d 0%, #fafd1d 52%, #fc4545 100%);
+        background: -webkit-linear-gradient(90deg, #3ab43d 0%, #fafd1d 52%, #fc4545 100%);
+        background: linear-gradient(90deg, #3ab43d 0%, #fafd1d 52%, #fc4545 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3ab43d",endColorstr="#fc4545",GradientType=1);
+        margin: 0 auto;
+        border-radius: 20px;
+        transition: all 500ms linear; }
+        div.wrapper > div.box5 > a > div.button > p {
+          position: relative;
+          top: 2px;
+          left: 2px;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-top: 10px;
+          width: 97%;
+          height: 36px;
+          border-radius: 20px;
+          background-color: white;
+          color: black;
+          font-size: 13.5px; }
+          div.wrapper > div.box5 > a > div.button > p:hover {
+            color: #0049b6; }
+      div.wrapper > div.box5 > img:nth-of-type(1) {
+        width: 100%;
+        margin-top: 17%; } }

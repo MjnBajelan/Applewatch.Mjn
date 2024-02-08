@@ -1,0 +1,84 @@
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  div.wrapper {
+    width: 100%;
+    > div.box5 {
+      width: 80%;
+      height: 550px;
+      margin: 10% auto;
+      background-color: #f5f5f7;
+      text-align: center;
+      padding-top: 5%;
+      
+
+      > p:nth-of-type(1) {
+        margin: 5% auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      > p:nth-of-type(2) {
+        margin: 2% auto;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-size: 30px;
+        font-weight: 600;
+        width: 70%;
+        height: 95px;
+      }
+      > a {
+        > div.button {
+          width: 30%;
+          height: 40px;
+          background: rgb(58, 180, 61);
+          background: -moz-linear-gradient(
+            90deg,
+            rgba(58, 180, 61, 1) 0%,
+            rgba(250, 253, 29, 1) 52%,
+            rgba(252, 69, 69, 1) 100%
+          );
+          background: -webkit-linear-gradient(
+            90deg,
+            rgba(58, 180, 61, 1) 0%,
+            rgba(250, 253, 29, 1) 52%,
+            rgba(252, 69, 69, 1) 100%
+          );
+          background: linear-gradient(
+            90deg,
+            rgba(58, 180, 61, 1) 0%,
+            rgba(250, 253, 29, 1) 52%,
+            rgba(252, 69, 69, 1) 100%
+          );
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3ab43d",endColorstr="#fc4545",GradientType=1);
+          margin: 0 auto;
+          border-radius: 20px;
+          transition: all 500ms linear;
+          > p {
+            position: relative;
+            top: 2px;
+            left: 2px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 10px;
+            width: 97%;
+            height: 36px;
+            border-radius: 20px;
+            background-color: white;
+            color: black;
+            font-size: 13.5px;
+            &:hover {
+              color: rgb(0, 73, 182);
+            }
+          }
+        }
+      }
+      > img:nth-of-type(1) {
+        width: 100%;
+        margin-top: 17%;
+      }
+      /* > img:nth-of-type(2) {
+        position: relative;
+        bottom: 55.5%;
+        width: 23%;
+      }*/
+    }
+  }
+}

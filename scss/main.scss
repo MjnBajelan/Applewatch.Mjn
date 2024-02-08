@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.div.wrapper{
+  background-color: white !important;
+}
+@import "partial/menu.scss/menuxxl.scss";
+@import "partial/menu.scss/menuxl.scss";
+@import "partial/menu.scss/menulg.scss";
+@import "partial/menu.scss/menumd.scss";
+@import "partial/menu.scss/menusm.scss";
+@import "partial/menu.scss/menuxs.scss";
+/**/
+@import "partial/slider.scss/sliderxxl.scss";
+@import "partial/slider.scss/sliderxl.scss";
+@import "partial/slider.scss/sliderlg.scss";
+@import "partial/slider.scss/slidermd.scss";
+@import "partial/slider.scss/sildersm.scss";
+@import "partial/slider.scss/sliderxs.scss";
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/**/
+@import "partial/box.scss/boxxxl.scss";
+@import "partial/box.scss/boxxl.scss";
+@import "partial/box.scss/boxlg.scss";
+@import "partial/box.scss/boxmd.scss";
+@import "partial/box.scss/boxsm.scss";
+@import "partial/box.scss/boxxs.scss";
+/**/
+@import "partial/img.scss/imgxxl.scss";
+@import "partial/img.scss/imgxl.scss";
+@import "partial/img.scss/imglg.scss";
+@import "partial/img.scss/imgmd.scss";
+@import "partial/img.scss/imgsm.scss";
+@import "partial/img.scss/imgxs.scss";
+/**/
+@import "partial/img.scss/img2xxl.scss";
+@import "partial/img.scss/img2xl.scss";
+@import "partial/img.scss/img2lg.scss";
+@import "partial/img.scss/img2md.scss";
+@import "partial/img.scss/img2sm.scss";
+@import "partial/img.scss/img2xs.scss";
+/**/
+@import "partial/img.scss/img3xxl.scss";
+@import "partial/img.scss/img3xl.scss";
+@import "partial/img.scss/img3lg.scss";
+@import "partial/img.scss/img3md.scss";
+@import "partial/img.scss/img3sm.scss";
+@import "partial/img.scss/img3xs.scss";
+/**/
+@import "partial/img.scss/img4xxl.scss";
+@import "partial/img.scss/img4xl.scss";
+@import "partial/img.scss/img4lg.scss";
+@import "partial/img.scss/img4md.scss";
+@import "partial/img.scss/img4sm.scss";
+@import "partial/img.scss/img4xs.scss";
+/**/
+@import "partial/box.scss/box2xxl.scss";
+@import "partial/box.scss/box2xl.scss";
+@import "partial/box.scss/box2lg.scss";
+@import "partial/box.scss/box2md.scss";
+@import "partial/box.scss/box2sm.scss";
+@import "partial/box.scss/box2xs.scss";
+/**/
+@import "partial/box.scss/box3.xxl.scss";
+@import "partial/box.scss/box3xl.scss";
+@import "partial/box.scss/box3lg.scss";
+@import "partial/box.scss/box3md.scss";
+@import "partial/box.scss/box3sm.scss";
+@import "partial/box.scss/box3xs.scss";
+/**/
+@import "partial/img.scss/img5xxl.scss";
+@import "partial/img.scss/img5xl.scss";
+@import "partial/img.scss/img5lg.scss";
+@import "partial/img.scss/img5md.scss";
+@import "partial/img.scss/img5sm.scss";
+@import "partial/img.scss/img5xs.scss";
+/**/
+@import "partial/img.scss/img6xxl.scss";
+@import "partial/img.scss/img6xl.scss";
+@import "partial/img.scss/img6lg.scss";
+@import "partial/img.scss/img6md.scss";
+@import "partial/img.scss/img6sm.scss";
+@import "partial/img.scss/img6xs.scss";
+/**/
+@import "partial/box.scss/box4xxl.scss";
+@import "partial/box.scss/box4xl.scss";
+@import "partial/box.scss/box4lg.scss";
+@import "partial/box.scss/box4md.scss";
+@import "partial/box.scss/box4sm.scss";
+@import "partial/box.scss/box4xs.scss";
+/**/
+@import "partial/box.scss/box5xxl.scss";
+@import "partial/box.scss/box5xl.scss";
+@import "partial/box.scss/box5lg.scss";
+@import "partial/box.scss/box5md.scss";
+@import "partial/box.scss/box5sm.scss";
+@import "partial/box.scss/box5xs.scss";
+/**/
+@import "partial/img.scss/img7xxl.scss";
+@import "partial/img.scss/img7xl.scss";
+@import "partial/img.scss/img7lg.scss";
+@import "partial/img.scss/img7md.scss";
+@import "partial/img.scss/img7sm.scss";
+@import "partial/img.scss/img7xs.scss";
+/**/
+@import "partial/h1.scss/h1xxl.scss";
+@import "partial/h1.scss/h1xl.scss";
+@import "partial/h1.scss/h1lg.scss";
+@import "partial/h1.scss/h1md.scss";
+@import "partial/h1.scss/h1sm.scss";
+@import "partial/h1.scss/h1xs.scss";
+/**/
+@import "partial/img.scss/img8xxl.scss";
+@import "partial/img.scss/img8xl.scss";
+@import "partial/img.scss/img8lg.scss";
+@import "partial/img.scss/img8md.scss";
+@import "partial/img.scss/img8sm.scss";
+@import "partial/img.scss/img8xs.scss";
+/**/
+@import "partial/h1.scss/h01xxl.scss";
+@import "partial/h1.scss/h01xl.scss";
+@import "partial/h1.scss/h01lg.scss";
+@import "partial/h1.scss/h01md.scss";
+@import "partial/h1.scss/h01sm.scss";
+@import "partial/h1.scss/h01xs.scss";
+/**/
+@import "partial/img.scss/img9xxl.scss";
+@import "partial/img.scss/img9xl.scss";
+@import "partial/img.scss/img9lg.scss";
+@import "partial/img.scss/img9md.scss";
+@import "partial/img.scss/img9sm.scss";
+@import "partial/img.scss/img9xs.scss";
+/**/
+@import "partial/img.scss/img10xxl.scss";
+@import "partial/img.scss/img10xl.scss";
+@import "partial/img.scss/img10lg.scss";
+@import "partial/img.scss/img10md.scss";
+@import "partial/img.scss/img10sm.scss";
+@import "partial/img.scss/img10xs.scss";
+/**/
+@import "partial/h1.scss/endxxl.scss";
+@import "partial/h1.scss/endxl.scss";
+@import "partial/h1.scss/endlg.scss";
+@import "partial/h1.scss/endmd.scss";
+@import "partial/h1.scss/endsm.scss";
+@import "partial/h1.scss/endxs.scss";
+/**/

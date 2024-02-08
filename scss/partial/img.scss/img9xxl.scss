@@ -1,0 +1,161 @@
+@media screen and (min-width: 1400px) {
+  div.wrapper {
+    width: 100%;
+    > div.img9 {
+      width: 95%;
+      height: 740px;
+      margin: 2.7%;
+      display: flex;
+      > div:nth-of-type(1) {
+        width: 49%;
+        background-color: #f5f5f7;
+        height: 350;
+        text-align: center;
+
+        > img {
+          padding-top: 10%;
+        }
+        > p:nth-of-type(1) {
+          width: 50%;
+          margin: 5% auto;
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        > a:nth-of-type(1) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 29%;
+            width: 20%;
+            font-size: 20px;
+            color: #0066cc;
+            > i {
+              font-size: 15px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+        > a:nth-of-type(2) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            bottom: 3%;
+            width: 20%;
+            left: 51%;
+            font-size: 20px;
+            color: #0066cc;
+            > i {
+              font-size: 15px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+      }
+      > div:nth-of-type(2) {
+        width: 49%;
+        background-color: #0c1a68;
+        height: 350;
+        text-align: center;
+        margin-left: 4%;
+        > img {
+          padding-top: 15%;
+        }
+        > p:nth-of-type(1) {
+          width: 40%;
+          margin: 5% auto;
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        > a:nth-of-type(1) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 29%;
+            width: 20%;
+            font-size: 20px;
+            color: #0066cc;
+            > i {
+              font-size: 15px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+        > a:nth-of-type(2) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            bottom: 3%;
+            width: 20%;
+            left: 51%;
+            font-size: 20px;
+            color: #0066cc;
+            > i {
+              font-size: 15px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+        /* >i{
+            background-color: aqua;
+            width: 4%;
+            height: 50px;
+            font-size: 20px;
+            position: relative;
+            right: 45px;
+            bottom: -1285%;
+        }*/
+        > div.slider {
+          width: 100%;
+          height: 400px;
+          padding-top: 5%;
+          > div.swiper {
+            > div.swiper-wrapper {
+              > div.swiper-slide {
+                width: 40%;
+                height: 300px;
+                display: flex;
+                background-color: #0c1a68;
+                > img {
+                  width: fit-content;
+                  border-radius: 10px;
+                  width: 100%;
+                  margin: 0 auto;
+                }
+                > div {
+                  width: 100%;
+                  height: 60px;
+                  background-color: #6f86a671;
+                  position: absolute;
+                  top: 85%;
+                  z-index: 50;
+                  border-radius: 0 0 10px 10px;
+                  > p {
+                    font-size: 13px;
+                    color: white;
+                    width: 60%;
+                    margin: 2% 0;
+                    padding-left: 2%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

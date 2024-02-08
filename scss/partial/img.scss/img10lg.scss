@@ -1,0 +1,95 @@
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  div.wrapper {
+    width: 100%;
+    > div.img10 {
+        width: 75%;
+      height: 524px;
+      margin: 4% auto;
+      display: flex;
+      > div:nth-of-type(1) {
+        width: 50%;
+        background-color: #f5f5f7;
+        text-align: center;
+        > img {
+          width: 100%;
+          height: 250px;
+        }
+        > p:nth-of-type(1) {
+          width: 70%;
+          margin: 0 auto;
+          padding-top: 20%;
+          font-size: 25px;
+          font-weight: 600;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        > p:nth-of-type(2) {
+          width: 85%;
+          margin: 0 auto;
+          padding-top: 3%;
+          font-size: 17px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        > a:nth-of-type(1) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 3% auto;
+            padding-bottom: 27%;
+            width: 30%;
+            font-size: 15px;
+            color: #0066cc;
+            > i {
+              font-size: 11px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+      }
+      > div:nth-of-type(2) {
+        width: 50%;
+        background-color: #f5f5f7;
+        margin-left: 4%;
+        text-align: center;
+        > img {
+          width: 100%;
+          height: 250px;
+        }
+        > p:nth-of-type(1) {
+          width: 100%;
+          padding-top: 20%;
+          font-size: 30px;
+          font-weight: 600;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        > p:nth-of-type(2) {
+          width: 100%;
+          margin: 0 auto;
+          padding-top: 3%;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        > a:nth-of-type(1) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 3% auto;
+            width: 30%;
+            padding-bottom: 27%;
+            font-size: 17px;
+            color: #0066cc;
+            > i {
+              font-size: 11px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+      }
+    }
+  }
+}

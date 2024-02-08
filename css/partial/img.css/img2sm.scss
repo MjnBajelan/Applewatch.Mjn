@@ -1,0 +1,52 @@
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.img2 {
+      width: 100%;
+      height: 660px;
+      background-color: black;
+      margin-top: 30px; }
+      div.wrapper > div.img2 > div.up {
+        width: 100%;
+        height: 315px;
+        margin-top: 350px; }
+        div.wrapper > div.img2 > div.up > img {
+          padding-top: 50px;
+          margin: 1% 42%;
+          width: 110px; }
+        div.wrapper > div.img2 > div.up > p:nth-of-type(1) {
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+          font-size: 30px;
+          font-weight: 600;
+          margin: 2% auto;
+          width: 384px; }
+        div.wrapper > div.img2 > div.up > p:nth-of-type(2) {
+          font-family: Arial, Helvetica, sans-serif;
+          color: white;
+          margin: 2% auto;
+          width: 85px; }
+        div.wrapper > div.img2 > div.up > p:nth-of-type(3) {
+          font-family: Arial, Helvetica, sans-serif;
+          color: orange;
+          font-size: 17px;
+          margin: 2% auto;
+          width: 163px; }
+        div.wrapper > div.img2 > div.up > a > p {
+          color: #2790f4;
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 2% auto;
+          width: 101px;
+          font-size: 17px; }
+          div.wrapper > div.img2 > div.up > a > p > i {
+            margin-left: 5px;
+            font-size: 13px; }
+        div.wrapper > div.img2 > div.up > a:hover {
+          text-decoration: underline; }
+      div.wrapper > div.img2 > div.down {
+        width: 100%;
+        margin-top: 60px; }
+        div.wrapper > div.img2 > div.down > img {
+          width: 100%;
+          position: absolute;
+          top: 1330px; } }

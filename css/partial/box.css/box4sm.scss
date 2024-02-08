@@ -1,0 +1,60 @@
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.box4 {
+      width: 100%;
+      height: 350px;
+      margin-bottom: 45%; }
+      div.wrapper > div.box4 > div.left {
+        width: 100%;
+        height: 300px;
+        text-align: center; }
+        div.wrapper > div.box4 > div.left > p:nth-of-type(1) {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 30px;
+          width: 50%;
+          font-weight: 600;
+          margin: 0 auto;
+          padding: 10px;
+          padding-top: 10%; }
+        div.wrapper > div.box4 > div.left > p:nth-of-type(2) {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 18px;
+          padding-top: 18px;
+          margin: 0 auto;
+          width: 65%; }
+        div.wrapper > div.box4 > div.left > a p {
+          width: 300px;
+          margin: 18px auto;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 18px;
+          color: #0066cc; }
+          div.wrapper > div.box4 > div.left > a p > i {
+            font-size: 13px;
+            padding-left: 5px; }
+      div.wrapper > div.box4 > div.right {
+        width: 100%;
+        height: 220px;
+        text-align: center;
+        padding-top: 7%; }
+        div.wrapper > div.box4 > div.right > p:nth-of-type(1) {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 30px;
+          width: 70%;
+          font-weight: 600;
+          margin: 0 auto; }
+        div.wrapper > div.box4 > div.right > p:nth-of-type(2) {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+          padding-top: 18px;
+          margin: 0 auto;
+          width: 78%; }
+        div.wrapper > div.box4 > div.right > a p {
+          margin: 18px auto;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 18px;
+          color: #0066cc;
+          width: 300px; }
+          div.wrapper > div.box4 > div.right > a p > i {
+            font-size: 13px;
+            padding-left: 5px; } }

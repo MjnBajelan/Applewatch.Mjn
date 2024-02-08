@@ -1,0 +1,59 @@
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.slider1 {
+      display: none; }
+    div.wrapper > div.slider11 {
+      width: 100%;
+      height: 115px;
+      background-color: #f9f9fa;
+      display: none; }
+      div.wrapper > div.slider11 > div.swiper > div.swiper-wrapper > div.swiper-slide {
+        height: 110px;
+        width: 100%;
+        margin: 11px 12px; }
+        div.wrapper > div.slider11 > div.swiper > div.swiper-wrapper > div.swiper-slide > div {
+          width: 80%;
+          height: 70px; }
+          div.wrapper > div.slider11 > div.swiper > div.swiper-wrapper > div.swiper-slide > div > a {
+            width: 100%;
+            height: 70px; }
+            div.wrapper > div.slider11 > div.swiper > div.swiper-wrapper > div.swiper-slide > div > a > img {
+              padding-left: 25px; }
+            div.wrapper > div.slider11 > div.swiper > div.swiper-wrapper > div.swiper-slide > div > a > p {
+              width: 80px;
+              color: #757575;
+              font-size: 12px;
+              font-family: Arial, Helvetica, sans-serif;
+              position: relative;
+              right: -5px;
+              top: 10px; }
+    div.wrapper > div.slider12 {
+      width: 100%;
+      height: 140px;
+      background-color: #f9f9fa;
+      margin-top: 50px;
+      display: flex;
+      /*> div.swiper > div.swiper-wrapper > div.swiper-slide:nth-of-type(12){
+      border-right: 1px solid lightgray;
+    }*/ }
+      div.wrapper > div.slider12 > div.swiper > div.swiper-wrapper > div.swiper-slide {
+        height: 90px;
+        width: 100px;
+        background-color: #f9f9fa; }
+        div.wrapper > div.slider12 > div.swiper > div.swiper-wrapper > div.swiper-slide > div {
+          width: 100px;
+          height: 60px; }
+          div.wrapper > div.slider12 > div.swiper > div.swiper-wrapper > div.swiper-slide > div > a {
+            width: 100px;
+            height: 70px; }
+            div.wrapper > div.slider12 > div.swiper > div.swiper-wrapper > div.swiper-slide > div > a > img {
+              padding-left: 65px; }
+            div.wrapper > div.slider12 > div.swiper > div.swiper-wrapper > div.swiper-slide > div > a > p {
+              width: 80px;
+              color: #757575;
+              font-size: 12px;
+              font-family: Arial, Helvetica, sans-serif;
+              position: relative;
+              right: -40px;
+              top: 10px; } }

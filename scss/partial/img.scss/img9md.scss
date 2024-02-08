@@ -1,0 +1,164 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  div.wrapper {
+    width: 100%;
+    > div.img9 {
+      width: 95%;
+      height: 524px;
+      margin: 4% auto;
+      display: flex;
+      > div:nth-of-type(1) {
+        width: 50%;
+        background-color: #f5f5f7;
+        height: 350;
+        text-align: center;
+        > img:nth-of-type(1) {
+          padding-top: 15%;
+        }
+        > img:nth-of-type(2) {
+          width: 100%;
+          margin-top: 15%;
+        }
+        > p:nth-of-type(1) {
+          width: 75%;
+          margin: 5% auto;
+          font-size: 18px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        > a:nth-of-type(1) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 22%;
+            width: 23%;
+            font-size: 15px;
+            color: #0066cc;
+            > i {
+              font-size: 10px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+        > a:nth-of-type(2) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            bottom: 3%;
+            width: 28%;
+            left: 51%;
+            font-size: 15px;
+            color: #0066cc;
+            > i {
+              font-size: 10px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+      }
+      > div:nth-of-type(2) {
+        width: 50%;
+        background-color: #0c1a68;
+        height: 350;
+        text-align: center;
+        margin-left: 4%;
+        > img {
+          padding-top: 15%;
+        }
+        > p:nth-of-type(1) {
+          width: 75%;
+          margin: 5% auto;
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        > a:nth-of-type(1) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 22%;
+            width: 23%;
+            font-size: 15px;
+            color: #0066cc;
+            > i {
+              font-size: 10px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+        > a:nth-of-type(2) {
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+            bottom: 3%;
+            width: 28%;
+            left: 51%;
+            font-size: 15px;
+            color: #0066cc;
+            > i {
+              font-size: 10px;
+              padding-left: 5px;
+            }
+          }
+          &:hover {
+            text-decoration: underline;
+            color: #0066cc;
+          }
+        }
+        /* >i{
+            background-color: aqua;
+            width: 4%;
+            height: 50px;
+            font-size: 20px;
+            position: relative;
+            right: 45px;
+            bottom: -1285%;
+        }*/
+        > div.slider {
+          width: 100%;
+          height: 400px;
+          padding-top: 5%;
+          > div.swiper {
+            > div.swiper-wrapper {
+              > div.swiper-slide {
+                width: 60%;
+                height: 250px;
+                display: flex;
+                background-color: #0c1a68;
+                > img {
+                  width: fit-content;
+                  border-radius: 10px;
+                  width: 100%;
+                  margin: 0 auto;
+                }
+                > div {
+                  width: 100%;
+                  height: 60px;
+                  background-color: #6f86a671;
+                  position: absolute;
+                  top: 85%;
+                  z-index: 50;
+                  border-radius: 0 0 10px 10px;
+                  > p {
+                    font-size: 13px;
+                    color: white;
+                    width: 60%;
+                    margin: 2% 0;
+                    padding-left: 2%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

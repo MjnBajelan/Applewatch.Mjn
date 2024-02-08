@@ -1,0 +1,21 @@
+@media screen and (min-width: 540px) and (max-width: 768px) {
+  div.wrapper {
+    width: 100%; }
+    div.wrapper > div.end {
+      width: 100%;
+      height: 2550px;
+      background-color: #f4f4f7;
+      margin-top: 80%; }
+      div.wrapper > div.end > div.endP {
+        width: 95%;
+        margin: 0 auto;
+        border-bottom: 1px solid #dbdbdd;
+        position: relative;
+        top: 20px; }
+        div.wrapper > div.end > div.endP > p {
+          font-size: 13px;
+          color: #818181;
+          margin-top: 1%; }
+          div.wrapper > div.end > div.endP > p > a {
+            color: #818181;
+            text-decoration: underline; } }
